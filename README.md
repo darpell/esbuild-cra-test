@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+It is also a test app to try esbuild. The full guide can be seen here https://how-to.dev/how-to-build-code-generated-by-create-react-app-with-esbuild
+
 ## Available Scripts
 
 In the project directory, you can run:

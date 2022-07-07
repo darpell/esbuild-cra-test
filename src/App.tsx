@@ -1,13 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Logo } from "./images";
+import './styles/Main.scss';
+import './App.scss';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={Logo} className="App-logo" alt="logo" /> */}
+        <Logo className="App-logo" />
+        {/* <Logo /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. test
         </p>
         <a
           className="App-link"
@@ -17,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+        <div className="test-svg">rawr</div>
       </header>
     </div>
   );

@@ -1,0 +1,108 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Courier New",
+    monospace;
+}
+
+/* ../../../../../../var/folders/3m/0dm6g9l116l5m7gz2tn9pfgc0000gn/T/tmp-14118-g947QBR4pvaT/esbuild-cra/src/styles/Main.css */
+@font-face {
+  font-family: "GenesisCareSans";
+  src: url(./genesiscaresans-light-webfont-E3XNYXQJ.woff) format("woff"), url(./GenesisCareSans-Light-OWVZVE6U.ttf) format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "GenesisCareSans";
+  src: url(./genesiscaresans-regular-webfont-PFI7PGYP.woff) format("woff"), url(./GenesisCareSans-Regular-UYPBWIXY.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "GenesisCareSans";
+  src: url(./genesiscaresans-medium-webfont-IHN2KYRA.woff) format("woff"), url(./GenesisCareSans-Medium-Z43VYAQT.ttf) format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "GenesisCareSans";
+  src: url(./genesiscaresans-bold-webfont-A3BPCJSJ.woff) format("woff"), url(./GenesisCareSans-Bold-W327Q3ZS.ttf) format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "GenesisCareSans";
+  src: url(./genesiscaresans-black-webfont-5WWFFFFJ.woff) format("woff"), url(./GenesisCareSans-Black-ZWBX5K6N.ttf) format("truetype");
+  font-weight: 800;
+}
+body {
+  font-family: "Arial", sans-serif;
+}
+h1 {
+  font-weight: bolder;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* src/App.css */
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=index.css.map */
