@@ -6,10 +6,10 @@ module.exports = {
             plugin: require('craco-esbuild'),
             esbuildLoaderOptions: {
                 loader: 'tsx',
-                target: 'es2016',
+                target: 'es6',
             },
             esbuildMinimizerOptions: {
-                target: 'es2016',
+                target: 'es6',
                 css: true,
             },
             skipEsbuildJest: false,

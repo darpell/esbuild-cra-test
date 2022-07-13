@@ -48,8 +48,6 @@
     "craco-esbuild": "^0.5.1",
     "esbuild": "^0.14.47",
     "esbuild-plugin-sass": "^1.0.1",
-    "esbuild-plugin-svg": "^0.1.0",
-    "esbuild-plugin-svgj": "^1.0.3",
     "esbuild-plugin-svgr": "^1.0.1",
     "nodemon": "^2.0.18"
   }
