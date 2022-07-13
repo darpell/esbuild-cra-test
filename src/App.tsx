@@ -3,16 +3,13 @@ import { Logo } from "./images";
 import './styles/Main.scss';
 import './App.scss';
 
-
-function App() {
+const App = (): JSX.Element =>  {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={Logo} className="App-logo" alt="logo" /> */}
         <Logo className="App-logo" />
-        {/* <Logo /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload. test
+          Edit <code>src/App.js</code> and save to reload. testerssasd
         </p>
         <a
           className="App-link"
