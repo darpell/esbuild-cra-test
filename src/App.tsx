@@ -9,7 +9,7 @@ const App = (): JSX.Element =>  {
       <header className="App-header">
         <Logo className="App-logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. testerssasd
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
