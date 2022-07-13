@@ -2,9 +2,6 @@
 import esbuild from 'esbuild';
 import sassPlugin from 'esbuild-plugin-sass';
 import svgrPlugin from 'esbuild-plugin-svgr';
-// import svgPlugin from 'esbuild-plugin-svg';
-// import { svgjPlugin } from 'esbuild-plugin-svgj';
-// import { readFile } from "fs/promises";
 
 import http from 'http';
 import child_process from 'child_process';
@@ -43,18 +40,8 @@ esbuild
             typescript: true,
             memo: true,
             ref: true,
-            // outDir: 'dist',
             exportType: 'named',
         }),
-        // svgPlugin({
-        //   customElement: false,
-        //   namespace: 'icon', // namespace custom elements
-        //   minify: false, // with svgo
-        //   minifyOptions: {} // svgo options
-        // }),
-        // svgjPlugin.svgjPlugin({
-        //   readFile: (path) => readFile(path, "utf8"),
-        // }),
     ],
   })
   .catch(() => process.exit(1))
