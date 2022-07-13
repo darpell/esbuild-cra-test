@@ -9,7 +9,7 @@ You should have node installed in your system prefereably with [nvm](https://git
 
 Please install all the packages by running
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 
 ## Development
